@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/color"
+        android:title="Color" />
+
+    <item android:id="@+id/bg_color"
+        android:title="BG Color" />
+
+    <item android:id="@+id/eraser"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Eraser" />
+
+    <item android:id="@+id/normal"
+        android:title="Normal" />
+
+    <item android:id="@+id/emboss"
+        android:title="Emboss" />
+
+    <item android:id="@+id/blur"
+        android:title="Blur" />
+
+    <item android:id="@+id/clear"
+        android:title="Clear" />
+
+    <item
+        android:id="@+id/thickness"
+        android:title="Thickness"
+        android:inputType="number"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <EditText
+        android:id="@+id/plain_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+        android:inputType="text"/>
+
+</menu>
